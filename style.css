@@ -1,0 +1,65 @@
+body {
+    width: 100%
+ }
+ 
+ .all {
+     max-width: 1400px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100vw;
+     height: 100vh;
+     
+ }
+ 
+ .cars {
+     display: flex;
+     width: 760px;
+     height: 435px;
+ }
+ 
+ .box {
+     margin: 23px; 
+ }
+ 
+ h1 {
+     color: hsl(0, 0%, 95%);
+     font-family: 'Big Shoulders Display', cursive;
+ }
+ 
+ p {
+     color: hsla(0, 0%, 100%, 0.75);
+     font-family: 'Lexend', sans-serif;
+     font-size: 15px;
+     font-weight: 200;
+     padding-bottom: 90px;
+ }
+ 
+ a {
+     border: 2px solid hsl(0, 0%, 95%);
+     font-family: 'Lexend', sans-serif;
+     border-radius: 30px;
+     padding: 15px 40px ;
+     font-weight: 700;
+     transition: 0.5s;
+ }
+ 
+ a:hover{
+     background-color: hsla(0, 0%, 100%, 0.75);
+     cursor: pointer;
+     transition: 0.5s;
+ }
+ 
+ .sedans {
+     background-color: hsl(31, 77%, 52%);   
+     border-radius: 7px 0 0 7px;
+ }
+ 
+ .suvs {
+     background-color: hsl(184, 100%, 22%);
+ }
+ 
+ .luxury {
+     background-color: hsl(179, 100%, 13%);
+     border-radius: 0 7px 7px 0;
+ }
